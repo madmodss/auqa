@@ -1,5 +1,5 @@
 local MakoLib = {}
-local Objects = (game:GetService("RunService"):IsStudio() and game.ReplicatedStorage.MakoUI) or game:GetObjects("rbxassetid://13869133319")[1]
+local Objects = (game:GetService("RunService"):IsStudio() and game.ReplicatedStorage.MakoUI) or game:GetObjects("rbxassetid://13869145631")[1]
 local MainColor = Color3.fromRGB(62, 228, 247)
 local Services = setmetatable({}, {
 	__index = function(self, key)
